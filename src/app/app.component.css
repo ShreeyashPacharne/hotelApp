@@ -1,11 +1,48 @@
-.container{
-    background: #FEE715;
-    
+header{
+    background: #F7E6C4;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
 }
 
 .logo{
-    width: 100px;
+    width: 150px;
     height: 50px;
+    float: left;
+    padding: 5px 0;
 }
 
-/* Charcoal #101820, Yellow #FEE715 */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 80px;
+    padding-top: 23px;
+}
+
+nav > ul > li > a{
+    color: #101820;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover{
+    color: #0c300d;
+}
