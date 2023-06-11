@@ -2,3 +2,9 @@ body {
     background: #606C5D;
     margin: 0;
 }
+
+@font-face{
+    font-family: 'googleFont';
+    font-weight: 800;
+    src: url('../src/assets/RobotoSlab-VariableFont_wght.ttf');
+}

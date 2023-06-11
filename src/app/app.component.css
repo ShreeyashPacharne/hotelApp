@@ -22,6 +22,7 @@ header::after{
 
 nav{
     float: right;
+    font-family: googleFont;
 }
 
 nav ul{
